@@ -1,2 +1,20 @@
+/* Grid Container */
+.holder {
+    display: grid;
+    width: 200px;  /* Set the total width */
+    height: 200px; /* Set the total height */
+    grid-template-columns: repeat(2, 1fr); /* 2 equal columns */
+    grid-template-rows: repeat(2, 1fr);    /* 2 equal rows */
+    gap: 0; /* Optional: Set to 0 to avoid spacing between items */
+}
+
+/* Items */
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+    border: 1px solid black;
+}
 
 /* Your CSS Code here. */
